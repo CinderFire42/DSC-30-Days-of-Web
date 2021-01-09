@@ -11,6 +11,22 @@ body{
   color:white;
   font-family: 'Raleway', sans-serif;
 }
+.Weeknd a{
+  text-decoration: none;
+  color: white;
+}
+.Weeknd a:hover{
+  color: #F9CB40;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+th, td {
+  padding: 20px;
+}
 .form{
   width:340px;
   height:440px;
@@ -24,8 +40,24 @@ body{
   font-family:'Montserrat',sans-serif;
   position:relative
 }
-input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
+input{width:100%;
+  padding:10px;
+  box-sizing:border-box;
+  background:none;
+  outline:none;
+  resize:none;
+  border:0;
+  font-family:'Montserrat',sans-serif;
+  transition:all .3s;
+  border-bottom:2px solid #bebed2
+}
 input:focus{border-bottom:2px solid #78788c}
 p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a}
 button{float:right;padding:8px 12px;margin:8px 0 0;font-family:'Montserrat',sans-serif;border:2px solid #78788c;background:0;color:#5a5a6e;cursor:pointer;transition:all .3s}
-butt
+
+.contact-info{
+  background-color: #F9CB40;
+  width: 100%;
+  padding: 25px;
+  color: black;
+}
